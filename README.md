@@ -359,7 +359,17 @@
     </tr>
 </table>
 
+# 开放能力
 
+## AI能力支持
+
+## 现有算法清单
+
+![现在算法清单](https://github-resources.oss-cn-hangzhou.aliyuncs.com/aiList.png)
+## 动态配置设备AI能力
+![AIdemo](https://github-resources.oss-cn-hangzhou.aliyuncs.com/AI.jpeg)
+
+在我们平台中，可自由针对接入的摄像头、无人机监控等视频流数据配置AI扩展能力，快速交付业务。
 
 
 
