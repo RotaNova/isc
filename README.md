@@ -1,4 +1,7 @@
-![新航物联网 logo](https://github-resources.oss-cn-hangzhou.aliyuncs.com/logo.png)
+<div align="center">
+    <img src="https://github-resources.oss-cn-hangzhou.aliyuncs.com/logo.png" alt="logo"/>
+</div>
+
 
 [![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](https://github.com/RotaNova/rotanova-boot/blob/master/LICENSE)
 [![java](https://img.shields.io/badge/language-java-red.svg)](https://www.java.com/zh-CN/)
@@ -24,15 +27,18 @@
        MINIO_ENDPOINT: 填写部署了业务服务的IP地址，格式为：http://{IP}:9000，例如：http://127.0.0.1:9000 <br>
        SIP_IP: 填写部署了业务服务的IP地址，格式为：{IP},  例如：127.0.0.1 <br>
  3. 开放服务器端口：
-     > 80: web页面端口 <br>
-     > 9000: 图片服务端口 <br>
-     > 5060: 国标设备接入端口 <br>
-     > 1883: MQTT端口 <br>
-     > 8083: MQTT端口 <br>
-     > 9877: <br>
-     > 7044: <br>
-     > 7035: <br>
-     > 8866: AI服务端口 <br>
+    1. 必须开放:
+       > 80: web页面端口 <br>
+       9000: 图片服务端口 <br>
+       9877: 鉴权服务端口 <br>
+       *8866: AI服务端口，如果安装了离线AI部署包，则必须开放 <br>
+    3. 按需开放:
+       > 5060: 国标设备接入端口 <br>
+       8083: MQTT端口 <br>
+       8082: 低代码开发页面端口 <br>
+       7044: 安防服务swagger接口文档 <br>
+       7035: 物联网设备swagger接口文档 <br>
+       
       
  4. 安装单机业务服务，执行命令：
      > sh install.sh
