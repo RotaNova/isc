@@ -1,11 +1,14 @@
 <div align="center">
     <img src="https://github-resources.oss-cn-hangzhou.aliyuncs.com/logo.png" alt="logo"/>
+    <div>
+        <a href="http://rotanovaiot.cn/">福建新航物联网科技有限公司</a>
+    </div>
 </div>
 
 
 [![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](https://github.com/RotaNova/rotanova-boot/blob/master/LICENSE)
 [![java](https://img.shields.io/badge/language-java-red.svg)](https://www.java.com/zh-CN/)
-
+[![npm](https://camo.githubusercontent.com/6a1ee221c99c800e8d3b104c99033afa11d84c16f58e77632d21ed9d2370f49d/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f7675652e7376673f73616e6974697a653d74727565)](https://www.npmjs.com/package/vue)
 
 [![中文文档](https://camo.githubusercontent.com/a1600097d2890201165d5e70230e40ff689e0248e028afaa1f9ca574bf78840f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2545362539362538372545362541312541332d2545342542382541442545362539362538372545372538392538382d626c75652e737667)](https://rotanova.yuque.com/books/share/1f659d3d-1316-4c68-93bf-3498f1b89e8a/uw90fb)
 [![英文文档](https://camo.githubusercontent.com/a636695a76286d4751020a87763f0b65cbfedcd892d5750430f886f46bba7515/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f63756d656e742d456e676c6973682d626c75652e737667)]()
@@ -371,5 +374,6 @@
 
 在我们平台中，可自由针对接入的摄像头、无人机监控等视频流数据配置AI扩展能力，快速交付业务。
 
+# 友情链接
 
 
