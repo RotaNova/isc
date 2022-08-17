@@ -1,0 +1,3 @@
+[submodule "asmoboot"]
+	path = asmoboot
+	url = https://github.com/RotaNova/asmoboot
